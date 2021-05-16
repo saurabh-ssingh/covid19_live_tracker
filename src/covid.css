@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+.heading__style{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card__container{
+    margin: 3.5%;
+    width:400px;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.2s;
+    animation: ease-in-out;
+    float: left;
+    color:white;
+    background-color: violet;
+    
+}
+
+.card__container:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.card__content{
+    margin: 1rem;
+    margin-top: 3rem;
+    background-color: white;
+}
+
+.card__title{
+    text-align: center;
+    
+    
+}
